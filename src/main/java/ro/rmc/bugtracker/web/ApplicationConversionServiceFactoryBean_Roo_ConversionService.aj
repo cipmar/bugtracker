@@ -16,7 +16,7 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
     public Converter<Product, String> ApplicationConversionServiceFactoryBean.getProductToStringConverter() {
         return new org.springframework.core.convert.converter.Converter<ro.rmc.bugtracker.domain.Product, java.lang.String>() {
             public String convert(Product product) {
-                return new StringBuilder().toString();
+                return new StringBuilder().append(product.getName()).append(" ").append(product.getDescription()).toString();
             }
         };
     }

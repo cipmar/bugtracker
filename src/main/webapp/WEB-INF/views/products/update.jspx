@@ -4,6 +4,6 @@
     <jsp:output omit-xml-declaration="yes"/>
     <form:update id="fu_ro_rmc_bugtracker_domain_Product" modelAttribute="product" path="/products" versionField="Version" z="I0HSWF6Dl249/a7JuSAp98acrB4=">
         <field:input field="name" id="c_ro_rmc_bugtracker_domain_Product_name" min="3" required="true" z="YQ3yDtcyBoFbBGP5zlBAuwItHvk="/>
-        <field:input field="description" id="c_ro_rmc_bugtracker_domain_Product_description" z="+cMj0LW3aK/btUAU7iG2Jr1wwvs="/>
+        <field:textarea field="description" id="c_ro_rmc_bugtracker_domain_Product_description" z="o4ZXRfVxlMvlX4jM+W13yyGwudw="/>
     </form:update>
 </div>

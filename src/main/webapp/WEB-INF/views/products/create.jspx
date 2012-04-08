@@ -4,7 +4,7 @@
     <jsp:output omit-xml-declaration="yes"/>
     <form:create id="fc_ro_rmc_bugtracker_domain_Product" modelAttribute="product" path="/products" render="${empty dependencies}" z="VYochMIQVHNzhxkIlJov58Xg+eM=">
         <field:input field="name" id="c_ro_rmc_bugtracker_domain_Product_name" min="3" required="true" z="YQ3yDtcyBoFbBGP5zlBAuwItHvk="/>
-        <field:input field="description" id="c_ro_rmc_bugtracker_domain_Product_description" z="+cMj0LW3aK/btUAU7iG2Jr1wwvs="/>
+        <field:textarea field="description" id="c_ro_rmc_bugtracker_domain_Product_description" z="o4ZXRfVxlMvlX4jM+W13yyGwudw="/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_ro_rmc_bugtracker_domain_Product" render="${not empty dependencies}" z="I9c3uvnP3G5zuvK3oY90OmRuvvY="/>
 </div>
